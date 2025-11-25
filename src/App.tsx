@@ -737,25 +737,6 @@ function App() {
 
   return (
     <div className="min-h-screen">
-      {/* Modern Header with Glassmorphism */}
-      <header className="sticky top-0 z-50 glass border-b border-white/20 shadow-lg shadow-slate-200/50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex justify-between items-center">
-            <div className="flex items-center gap-3 group">
-              <div className="p-2.5 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-xl shadow-lg shadow-blue-500/30 group-hover:shadow-blue-500/50 transition-all duration-300 group-hover:scale-110">
-                <Route size={26} className="text-white" />
-              </div>
-              <div>
-                <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                  Freight Intelligence Hub
-                </h1>
-                <p className="text-xs text-slate-500">Real-time logistics insights</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-
       {/* Hero Section with Modern Design */}
       <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 via-indigo-600/10 to-purple-600/10"></div>
